@@ -40,7 +40,7 @@ bin/published.js
 
 # Build Path of Test Fixtures
 test/**/public
-.gatsby-context.js
+.improving-context.js
 .DS_Store
 public/
 node_modules/

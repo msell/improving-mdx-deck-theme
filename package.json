@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-mdx-theme",
-  "version": "0.0.6",
-  "main": "cjs/gatsby-mdx-theme.js",
-  "module": "es/gatsby-mdx-theme.js",
-  "author": "Dustin Schau <dustin@gatsbyjs.com>",
+  "name": "improving-mdx-theme",
+  "version": "0.0.1",
+  "main": "cjs/improving-mdx-theme.js",
+  "module": "es/improving-mdx-theme.js",
+  "author": "Matt Sell <matt.sell@improving.com>",
   "license": "MIT",
   "scripts": {
     "precommit": "pretty-quick --staged",
