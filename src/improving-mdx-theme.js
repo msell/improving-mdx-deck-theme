@@ -11,7 +11,7 @@ export default {
   font: header.join(','),
   monospace: code.join(','),
   transitionTimingFunction: 'linear',
-  transitionDuration: '0s',
+  transitionDuration: '.3s',
   colors: {
     background: 'white',
     heading: colors.improving

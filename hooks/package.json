@@ -16,7 +16,6 @@
     "style-loader": "^0.23.0"
   },
   "dependencies": {
-    "improving-mdx-theme": "^0.0.1",
     "typeface-space-mono": "^0.0.54",
     "typeface-spectral": "^0.0.54"
   }

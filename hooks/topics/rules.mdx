@@ -1,0 +1,59 @@
+import {
+  FullScreenCode,
+  Main,
+  Section,
+  SectionInverted
+} from 'improving-mdx-theme'
+import { Appear } from 'mdx-deck'
+
+export default SectionInverted
+
+# Rules of Hooks
+
+## Only Call Hooks at the Top Level
+
+<div style={{ maxWidth: '800px', textAlign: 'left', color: '#fff' }}>
+  Don’t call Hooks inside loops, conditions, or nested functions. Instead,
+  always use Hooks at the top level of your React function. By following this
+  rule, you ensure that Hooks are called in the same order each time a component
+  renders.
+</div>
+
+---
+
+export default SectionInverted
+
+# Rules of Hooks
+
+## Only Call Hooks from React Functions
+
+<div
+  style={{
+    textAlign: 'left',
+    color: '#fff',
+    textSize: '.8em',
+    axWidth: '800px'
+  }}
+>
+  Don’t call Hooks from regular JavaScript functions. Instead, you can:
+  <ul>
+    <li>Call Hooks from React function components.</li>
+    <li>Call Hooks from custom Hooks</li>
+  </ul>
+</div>
+
+---
+
+export default SectionInverted
+
+Official linter by React team
+
+```
+npm i -D eslint-plugin-react-hooks
+```
+
+or community Typescript linter
+
+```
+npm i -D tslint-react-hooks
+```
