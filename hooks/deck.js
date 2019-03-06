@@ -1,4 +1,5 @@
 import intro from './topics/intro.mdx'
+import threeThings from './topics/three-things.mdx'
 import wrapperHell from './topics/wrapper-hell.mdx'
 import overview from './topics/improving-overview.mdx'
 import newFeatures from './topics/new-features.mdx'
@@ -16,6 +17,7 @@ import conclusion from './topics/conclusion.mdx'
 export { default as theme } from 'improving-mdx-theme'
 export default [
   ...intro,
+  ...threeThings,
   ...wrapperHell,
   ...overview,
   ...newFeatures,
