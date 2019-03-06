@@ -1,6 +1,6 @@
 const colors = {
-  improving: `#663399`, // was #744c9e
-  lilac: `#8c65b3`,
+  improving: `#3D52D5`,
+  lilac: `#5b68bc`,
   accent: `#ffb238`, // "Mustard",
   success: `#37b635`,
   warning: `#ec1818`,
