@@ -1,0 +1,76 @@
+import { Main, Section, SectionInverted } from 'improving-mdx-theme'
+import { FullScreenCode } from 'mdx-deck/layouts'
+
+export default SectionInverted
+
+```jsx
+import React, { useState } from 'react'
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0)
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  )
+}
+```
+
+---
+
+export default SectionInverted
+
+## Only Run on Mount and Unmount
+
+```jsx
+useEffect(() => {
+  console.log('mounted')
+  return () => console.log('unmounting...')
+}, []) // <-- add this empty array here
+```
+
+---
+
+export default Section
+
+### In this next [example](https://codesandbox.io/s/z6pommq8km), let’s look at how you can focus an input control upon first render, using useEffect combined with the useRef hook.
+
+---
+
+export default FullScreenCode
+
+```jsx
+import React, { useEffect, useState, useRef } from 'react'
+import ReactDOM from 'react-dom'
+
+function App() {
+  // Store a reference to the input's DOM node
+  const inputRef = useRef()
+
+  // Store the input's value in state
+  const [value, setValue] = useState('')
+
+  useEffect(
+    () => {
+      // This runs AFTER the first render,
+      // so the ref is set by now.
+      inputRef.current.focus()
+    },
+    // The effect "depends on" inputRef
+    [inputRef]
+  )
+
+  return (
+    <input
+      ref={inputRef}
+      value={value}
+      onChange={e => setValue(e.target.value)}
+    />
+  )
+}
+
+ReactDOM.render(<App />, document.querySelector('#root'))
+```

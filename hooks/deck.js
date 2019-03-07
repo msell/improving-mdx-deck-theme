@@ -3,7 +3,7 @@ import threeThings from './topics/three-things.mdx'
 import wrapperHell from './topics/wrapper-hell.mdx'
 import docs from './topics/docs.mdx'
 import rules from './topics/rules.mdx'
-// import useState from './topics/useState.mdx'
+import examples from './topics/examples.mdx'
 // import './fonts/Webfonts/futurapt_book_macroman/stylesheet.css'
 // import './fonts/Webfonts/futurapt_bookitalic_macroman/stylesheet.css'
 // import './fonts/Webfonts/futurapt_demi_macroman/stylesheet.css'
@@ -17,6 +17,6 @@ export default [
   ...threeThings,
   ...wrapperHell,
   ...rules,
-  // ...useState,
+  ...examples,
   ...docs
 ]
