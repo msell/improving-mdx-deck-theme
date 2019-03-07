@@ -2,6 +2,7 @@ import intro from './topics/intro.mdx'
 import threeThings from './topics/three-things.mdx'
 import wrapperHell from './topics/wrapper-hell.mdx'
 import docs from './topics/docs.mdx'
+import faq from './topics/faq.mdx'
 import rules from './topics/rules.mdx'
 import examples from './topics/examples.mdx'
 // import './fonts/Webfonts/futurapt_book_macroman/stylesheet.css'
@@ -18,5 +19,6 @@ export default [
   ...wrapperHell,
   ...rules,
   ...examples,
+  ...faq,
   ...docs
 ]

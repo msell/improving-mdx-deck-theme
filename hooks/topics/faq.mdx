@@ -1,0 +1,22 @@
+import {
+  FullScreenCode,
+  Main,
+  Section,
+  SectionInverted
+} from 'improving-mdx-theme'
+
+export default Section
+
+## Do Hooks work with static typing?
+
+Hooks were designed with static typing in mind. Because they’re functions, they are easier to type correctly than patterns like higher-order components. The latest Flow and TypeScript React definitions include support for React Hooks.
+
+---
+
+export default SectionInverted
+
+## What do Hooks mean for popular APIs like Redux connect() and React Router?
+
+You can continue to use the exact same APIs as you always have; they’ll continue to work.
+
+In the future, new versions of these libraries might also export custom Hooks such as useRedux() or useRouter() that let you use the same features without needing wrapper components.
